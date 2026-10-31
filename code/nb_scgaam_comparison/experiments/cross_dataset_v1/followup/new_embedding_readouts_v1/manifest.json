@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-10-17T21:54:04.801098+00:00",
+  "script_sha256": "6a4a7e7805ea41ff87cb30d062c9ecdad1bdbebf660e50f147ea1cc02c89abe4",
+  "readouts_sha256": "a997c87ebedf521c117d57ddc3f65a53d29ea7b3fef24bfc2348649567c4ff16",
+  "datasets": {
+    "Worm_Neuron": 10,
+    "Limb_Muscle": 6,
+    "Tosches": 15,
+    "Bach": 8
+  },
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "r6_variants": [
+    "both",
+    "positive",
+    "negative",
+    "none",
+    "far",
+    "uniformity",
+    "anchored",
+    "both_gentle"
+  ],
+  "r6_readout": "L2 KMeans20, random_state=training seed, final 800-step embedding",
+  "consensus_views": [
+    "NB-H",
+    "PCA at K/2K/3K",
+    "scGAAM",
+    "new R6 both"
+  ],
+  "extra_consensus_view": "NB-GCL-fusion",
+  "graph_readouts": [
+    "spectral",
+    "leiden",
+    "overmerge2",
+    "overmerge3"
+  ],
+  "limitations": [
+    "PCA has three partitions per seed versus one for each other view",
+    "coassociation top-k ties broken by index",
+    "three readout seeds share one ensemble, not independent trainings"
+  ],
+  "labels_read": false,
+  "heldout_content_read": false
+}

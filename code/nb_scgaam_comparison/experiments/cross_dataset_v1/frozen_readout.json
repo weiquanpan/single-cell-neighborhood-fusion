@@ -1,0 +1,18 @@
+{
+  "status": "READOUT_FROZEN_FOR_BACKBONE_ABLATIONS",
+  "utc": "2026-10-17T04:40:49.7169282Z",
+  "scope": "scGAAM and NB-GCL additive ablations, all datasets",
+  "readout": "kmeans",
+  "normalization": "l2",
+  "n_init": 20,
+  "random_state": "same as training seed",
+  "selection_rule": "Highest mean ARI among complete-grid candidates satisfying per-dataset stronger-baseline minus 0.05 guardrail, then mean rank",
+  "selection_source": "stage0 scGAAM__kmeans",
+  "protocol_sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d",
+  "summary_sha256": "b6568d4a4b93ffa61a8ab05f65d7957f252c93940c7df2a8e40b7ebab4a71112",
+  "new_gcl_training_results_seen": false,
+  "full_method_frozen": false,
+  "heldout_access_authorized": false,
+  "rare_group_caveat": "Bach smallest-group recall mean decreased from 0.3321 to 0; ARI gain is not overall superiority",
+  "diagnostic_spectral_selection": "Across-representation mean was diagnostic only; scGAAM spectral fails Worm ARI guardrail; not adopted"
+}

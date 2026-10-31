@@ -1,0 +1,13 @@
+*.h5
+*.h5ad
+*.npy
+*.npz
+*.pt
+*.pth
+*.csv
+*.tsv
+data/
+cache/
+runs/
+__pycache__/
+.env

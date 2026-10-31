@@ -1,0 +1,112 @@
+{
+  "frozen_utc": "2026-10-17T22:56:40.535222+00:00",
+  "status": "FROZEN_FOR_HELDOUT_VALIDATION",
+  "method": "NB-GCL-fusion",
+  "selection_rule": "Complete 4x3 grid, every dataset ARI guardrail, highest dataset-equal mean ARI then mean rank; one method for all datasets",
+  "development_result": {
+    "method": "trained_NB-GCL-fusion",
+    "mean_ari": 0.8264167350007855,
+    "mean_rank": 4.0,
+    "per_dataset_ari": {
+      "Worm_Neuron": 0.552384329604669,
+      "Limb_Muscle": 0.9911062739638982,
+      "Tosches": 0.8096199536740861,
+      "Bach": 0.9525563827604885
+    },
+    "per_dataset_sample_sd": {
+      "Worm_Neuron": 0.03590541937576044,
+      "Limb_Muscle": 0.0024335156702668752,
+      "Tosches": 0.048824031738669164,
+      "Bach": 0.004886098708757629
+    },
+    "delta_vs_stronger_baseline": {
+      "Worm_Neuron": 0.059386277851641134,
+      "Limb_Muscle": 0.05424494149127057,
+      "Tosches": -0.02190740586033557,
+      "Bach": 0.018569998421433365
+    },
+    "guardrail_pass": true,
+    "worst_group_recall": 0.0
+  },
+  "readout": "L2 normalize float32 embeddings; KMeans n_init=20, random_state=training seed",
+  "backbone": "train_gcl.py NB-GCL-fusion, original 500 epoch argument/501 loop, minimum training loss pre-update checkpoint",
+  "graph": "Expression GraphConstruction union with standardized pretrained NB-H Pearson context graph; consistent union at training and inference",
+  "nb_aux_weight": 0.1,
+  "h_source": "400 epoch NB autoencoder pretrained checkpoint from paired A initialization, same seed as candidate",
+  "preprocessing": "prepare_hvg_r1.py full-depth common HVG-positive cells; label-free HVG selection and shared indices; variable input gene dimension if fewer HVGs",
+  "known_k": "Number of reference classes, as original known-K evaluation; no label identities used by training",
+  "heldout_datasets": [
+    "Muraro",
+    "Romanov",
+    "Adam",
+    "Quake_10x_Bladder",
+    "Quake_10x_Spleen",
+    "Quake_Smart-seq2_Lung"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "comparison_methods": [
+    "NB original DEC",
+    "scGAAM original author readout",
+    "scGAAM frozen L2 KMeans20",
+    "NB-GCL-fusion frozen L2 KMeans20"
+  ],
+  "primary": [
+    "dataset-equal mean ARI",
+    "dataset-equal mean rank"
+  ],
+  "guardrail": "each dataset seed-mean ARI >= max(NB, original scGAAM)-0.05",
+  "group_metrics": [
+    "worst_group_recall",
+    "smallest_group_recall",
+    "mean_fragmentation",
+    "all group recall and coverage"
+  ],
+  "restrictions": [
+    "No per-dataset method/readout selection",
+    "No heldout-driven hyperparameter changes",
+    "Engineering fixes require versioned audit, preserved failures",
+    "Report NB-H pretraining budget separately",
+    "Not a claim of overall effectiveness: Tosches worst-group recall zero, only four development datasets, seed variability and selection bias remain"
+  ],
+  "source_sha256": {
+    "experiments\\cross_dataset_v1\\audit_gcl.py": "526e9454026c0953a8603d2278976f9993bcca88b5fe37962f014248bbbff146",
+    "experiments\\cross_dataset_v1\\common.py": "0afd938b9063d494b3661f53968771b3faf09ba338f7c3c25863434f68aca208",
+    "experiments\\cross_dataset_v1\\download_holdouts.py": "2cabd13fde4dc25590bca13c4595e19652a47e2a3fd5e5838cb3a811e5a526cd",
+    "experiments\\cross_dataset_v1\\evaluate.py": "231a8da00f8b8df0d261c51f018b62cafa723a41efdb6f6b0fe0471b2886beac",
+    "experiments\\cross_dataset_v1\\gcl_train.py": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9",
+    "experiments\\cross_dataset_v1\\readouts.py": "a997c87ebedf521c117d57ddc3f65a53d29ea7b3fef24bfc2348649567c4ff16",
+    "experiments\\cross_dataset_v1\\run_queue.py": "f8e6c8eb1a7d604a12d3e98825555c47f224571b74eec6dc1c1241bd1fe045d7",
+    "experiments\\cross_dataset_v1\\stage0.py": "e1700493bc8659d47236916959224f2a2fbd57c324ae3903f84d63afbfc7024b",
+    "experiments\\cross_dataset_v1\\test_protocol.py": "c16f8aef74222d093c215fa3d35de90fd63d7111926680691c9098dde6edd7d2",
+    "experiments\\cross_dataset_v1\\train_gcl.py": "1f50a265c6a51fdddc057444fabb3b1cb3d403a0d55261020f196c1127687c9e",
+    "experiments\\cross_dataset_v1\\train_r6.py": "b30b8e5ad682c6a4a3e5bd8bd0710394b7bb77cce18b2aebf4e0fcd315d1a042",
+    "experiments\\cross_dataset_v1\\train_scsamac.py": "0a03cefff5c4ca35230f1c6996b76da1f549e8ed7ff179c88581cd12c257ab47",
+    "experiments\\cross_dataset_v1\\protocol.json": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d",
+    "experiments\\cross_dataset_v1\\frozen_readout.json": "01ec8d9a81766735be8a4a1d4eef45626c6089894310e8e7b9a2ec688ed831af",
+    "configs\\experiment.json": "29cdc2d3c13f4a678089ea56a04bbb841d0d62fbe03278f8ff397395f6933c57",
+    "scripts\\train_one.py": "e6546bec7505c7df9738feef6ce178fc3b0063e359f4b08443d57dba0c025354",
+    "scripts\\prepare_hvg_r1.py": "5ff36d77b36fb738d055052b347a5cb8b9bb33bbae9d7560f02f67874ff5320d",
+    "source\\scdeepcluster\\layers.py": "856aed8dc6516aa9587e0d3063eae224985431ae39eda467b48b3c1fdef0c39e",
+    "source\\scdeepcluster\\methods.py": "5d689d275c321faa490e2b90486593700438d06f0e2b9c2dcf6536cfcae613f9",
+    "source\\scdeepcluster\\preprocess.py": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9",
+    "source\\scdeepcluster\\scDeepCluster.py": "9cd5f5bddce6678cb4a06ff23f8cea0897dd79ea7da768ac2f35d658cb1a251f",
+    "source\\scgaam\\GATEncoder.py": "55fc9f77bb4397555ce68c06686ff8949f4ffe07bd908ca7c274eb0bbc4ec486",
+    "source\\scgaam\\GNNEncoder.py": "ac640d9af05e34bf5ab6cf7da477a9ac0f4f092b441255536d8b03d036ec1665",
+    "source\\scgaam\\model.py": "9d15b3d51bb6cb34e9d14250538c5d7b95ce5a290af6e33bbad106c91ed72b9a",
+    "source\\scgaam\\scGAAM.py": "743371b99a906c75823edbf7db56fc8d2836d198b61ece1fabf52f3fc3d15928",
+    "source\\scgaam\\train.py": "9351daacb054721df1ac138d8125c4f27eea09d0ba0721e4f728397c9fb5fe94",
+    "source\\scgaam\\utils.py": "97d7d9545c96448d3ab2236af9a4a9704dc72fcbf2f5f23ca3e4a7153502e51f"
+  },
+  "evidence_sha256": {
+    "evaluation\\summary.json": "3aa3287499a372c6b8e43ece31f59d5fd96866e6de3db9ba3979df792c7fb6bf",
+    "followup\\control_evaluation\\summary.json": "5ae9ff027e38d620b1e4d36ed5d9766660685262ae035161be9f811dfc634019",
+    "followup\\new_embedding_evaluation\\summary.json": "15e367092b9950682102e88a3a9433de0769defd6ea5cd1534b398c9d474e7be"
+  },
+  "heldout_content_read_before_freeze": false
+}

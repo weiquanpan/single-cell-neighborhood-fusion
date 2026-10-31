@@ -1,0 +1,2796 @@
+{
+  "id": "review_experiments_20261030_v1",
+  "frozen_utc": "2026-10-30T15:38:33.887223+00:00",
+  "user_authorization": "Start the needed additional experiments now",
+  "datasets": [
+    "Romanov",
+    "Adam",
+    "Quake_10x_Bladder",
+    "Quake_10x_Spleen",
+    "Quake_Smart-seq2_Lung"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "variants": [
+    "expression",
+    "expression_dense",
+    "random",
+    "pca_union",
+    "mse_union",
+    "fusion_noaux"
+  ],
+  "python": "F:\\cluster-noise\\scdeepcluster_author_work\\pytorch_gpu\\env313\\Scripts\\python.exe",
+  "inputs": {
+    "Romanov": {
+      "ready_sha256": "c05be4701fc021c02fc79ef71e8b63fefa5204a87b2f8b00f41f1462577b3f04",
+      "files": {
+        "cell_positions.npy": "c9ed264b0e6c8a8d29dc884cfd55f43efa2e2961ef6662c4d4b60495be3da587",
+        "counts.npy": "83da97be9e41daeea728109ea1ddb96c67845c3cfd47c5798ae9f3b8f011f13a",
+        "encoder_input.npy": "38cee92c0f59acf07b0c27facfb53d0c802717a4eadf05753d9f3885f985e982",
+        "excluded_hvg_zero_cell_positions.npy": "e734dac55ea9fbbe782af2d8c02c3c5992131906228afb2aaaf137d6f3ed74db",
+        "gene_positions.npy": "7b1346494db10fdcc80cb5c5a788bcd92975d544be038cb286c96784b905b83a",
+        "log_input.npy": "64012cb7c8428632e68738ea631340eb3e9feaea0560baf85d6cff7782aacfa5",
+        "pre_hvg_cell_positions.npy": "c9ed264b0e6c8a8d29dc884cfd55f43efa2e2961ef6662c4d4b60495be3da587",
+        "statistics.npz": "dabb9d31cb1ab91a2ccc872fbd232aba54ac7ad582205aacc68125b2c9c83f23"
+      },
+      "nb_h": {
+        "101": "8aa2f7fbeb4f3cf4471c111717864ea7e2d1ca1921db0d2c73c7497ef0ac8c45",
+        "202": "81f1e231746df8785f9cc33c4f8ef4a055e61963483315d5a4c163dae5448f52",
+        "303": "828b98e3bc44e09815161bea85798721e68693977155d92b79aa49ac9d7c1f8a",
+        "404": "845c23332f3979bd365b40ff97eaf795d8a65615fe278370a623afde7d0fce91",
+        "505": "d9846f275c59681aafdb2f3f322a10c059ce67b247e0aea521ab202c836ac34b"
+      },
+      "nb_pretrain_epochs": {
+        "101": 400,
+        "202": 400,
+        "303": 400,
+        "404": 400,
+        "505": 400
+      }
+    },
+    "Adam": {
+      "ready_sha256": "ea0c605803c201e09edbbaa04aa8e20f3844186533300994b4573bae902a9f55",
+      "files": {
+        "cell_positions.npy": "de852fbb74cded03d7b507469cd83c1194f7b44831ace98bbb9b7b6d0164d930",
+        "counts.npy": "96f318b372dc07b3a4d57f53479a22bf95afac0a5b16e02a7f360e433fd22920",
+        "encoder_input.npy": "faa27e9660b8b842d4c7a94ee4a91d12bcd9524401612f71e6b0636669569a97",
+        "excluded_hvg_zero_cell_positions.npy": "e734dac55ea9fbbe782af2d8c02c3c5992131906228afb2aaaf137d6f3ed74db",
+        "gene_positions.npy": "3b91d351415f8b98aa5017f78d3c36e1a3f9b5d1c7823f806a51f7f3ab90463d",
+        "log_input.npy": "f16ea7de6340d4db20937c8a5ff78c212271daee5655faf382c20a4c8a7dea54",
+        "pre_hvg_cell_positions.npy": "de852fbb74cded03d7b507469cd83c1194f7b44831ace98bbb9b7b6d0164d930",
+        "statistics.npz": "511d6437abb7acfb9718084af01acf80b167adeadfe13610c0154d72f1abada1"
+      },
+      "nb_h": {
+        "101": "f2e9899ae33e134ad6bd9b26160e02d19e8bfa66d8e04d250863266f20b054b2",
+        "202": "1f92910d0167211b4bf4caa3f07e9b4ac37d15cf6eeccd5c6541bb65c737588f",
+        "303": "653aa2e0ec8deda355e6cf9be2e2101a1b53614d06fa6a55f9d3cfe4ae7323d7",
+        "404": "42fb5cd276c34189d5c5c25972083d029dc63a1aa96443b728b3361e38dbf1fb",
+        "505": "537f83cfc62ec250dda327fc56c72b2c98b6ce8ca9bad2fd32e01c37affaec38"
+      },
+      "nb_pretrain_epochs": {
+        "101": 400,
+        "202": 400,
+        "303": 400,
+        "404": 400,
+        "505": 400
+      }
+    },
+    "Quake_10x_Bladder": {
+      "ready_sha256": "56913aff402faccd54f4ebfd85fb21844a86e34ea44cb230f1ef90c69c4613fc",
+      "files": {
+        "cell_positions.npy": "13c91c8b69f57dc6036e286d0a76acef5dda1885620cdaeb3e4d19ccc911f0ba",
+        "counts.npy": "016443721e39f6b26c82be3262a6c7dd2aac925e2633a946e6b94eee81a1e63b",
+        "encoder_input.npy": "84f3e1c3872650e6a827fcbf2c5604be1f256a520190ba49f3d39707c300fbb0",
+        "excluded_hvg_zero_cell_positions.npy": "e734dac55ea9fbbe782af2d8c02c3c5992131906228afb2aaaf137d6f3ed74db",
+        "gene_positions.npy": "a092fa1a7009d44a13b6bfb4ac0cf98aa96d02b04c0f0c8ddc2336d50ecc76b9",
+        "log_input.npy": "6c3fda6f51ecd2dcd2bdaa64b6b4baf833a31a2f2de6b05c5adbeeeff096cb3a",
+        "pre_hvg_cell_positions.npy": "13c91c8b69f57dc6036e286d0a76acef5dda1885620cdaeb3e4d19ccc911f0ba",
+        "statistics.npz": "bf44e4674484856411a42ef4ecc1e8bec1037b29408104c9f4ed7e5b49e6d0e9"
+      },
+      "nb_h": {
+        "101": "65d3f3321f32f32a2099de23e8794a562ae1c12af0604c6221f34d5b84f8b286",
+        "202": "22a091a0f0b2ec15ba7aecdc6e00b752315d912d292f6f16aa12fafa80aa1119",
+        "303": "e97fb8e3fd419e7e344ce80ff3293b4072cae280a2764b0c966dfc0541d7459d",
+        "404": "72fd3058360e4153cc8ac98f1644b49ca4e9fab2371cb057fad8f98aaf9e8d48",
+        "505": "f2bf332a4808525450771bf2c50f4dcce2ee1119070248a7ccec61f963983015"
+      },
+      "nb_pretrain_epochs": {
+        "101": 400,
+        "202": 400,
+        "303": 400,
+        "404": 400,
+        "505": 400
+      }
+    },
+    "Quake_10x_Spleen": {
+      "ready_sha256": "63e4f80618f400a1efe23ae9d22345b2cd0ac615742262dee65c6eef18afdbe6",
+      "files": {
+        "cell_positions.npy": "3bf7620b6d05f07af8a8ab85db467c75744fa115251397fb9bb1ddac8cfbabf4",
+        "counts.npy": "4fe9e71117eb6467c571f444eeb947e48be86d6785bd2244f0a25d4a4850fbd5",
+        "encoder_input.npy": "aa0c02d069f7468e85758a9e2e171c4881947309e2a516b1674711ccacc1b5ca",
+        "excluded_hvg_zero_cell_positions.npy": "e734dac55ea9fbbe782af2d8c02c3c5992131906228afb2aaaf137d6f3ed74db",
+        "gene_positions.npy": "ce3a3498ce1c433742248af99ba6cac9a0be1d05ee1c4a0fe97c0bab355e2955",
+        "log_input.npy": "9a468a9bd7157dd946c4342d32449dade3a52ee20b7c52dac63883f3c6bb7b07",
+        "pre_hvg_cell_positions.npy": "3bf7620b6d05f07af8a8ab85db467c75744fa115251397fb9bb1ddac8cfbabf4",
+        "statistics.npz": "3deb851afe7218f8abb411fed52c1d67f0379f78943ef4a49bb901a60fae60fb"
+      },
+      "nb_h": {
+        "101": "1c4ced77cb01ddf64351fb30d878b8cf0a7a2c221d63cf320586e744e0c7787d",
+        "202": "545775228d5972e9be6f06cedc8f62374110a22d665570233fc27784852412b1",
+        "303": "9e2c3e22fec939282b887a13fdd28de99b66799c1b8c187fa00de42502dca2b4",
+        "404": "8851dee132acf544d31c1c1b98ca375f791a22f43e53d11802fae735f99cb8d1",
+        "505": "a681853b46feffc82c4a4f7551727cbd18700a2c08309d100e9df4ad898dd310"
+      },
+      "nb_pretrain_epochs": {
+        "101": 400,
+        "202": 400,
+        "303": 400,
+        "404": 400,
+        "505": 400
+      }
+    },
+    "Quake_Smart-seq2_Lung": {
+      "ready_sha256": "1946705a3c8c4cbb19a04e77acc6d037c2f7fe4a6eb0071484e5f6178404532b",
+      "files": {
+        "cell_positions.npy": "6ede66e11e79ed63231b39af2166245ce7498c365177fa037821151c880bea72",
+        "counts.npy": "dfd648c346ac8f991d0e60710dc4430082094e32f390e3cb47f32851612d221a",
+        "encoder_input.npy": "96bf938be559ec9aa2c0582dbdfa6d83e46488bb5915ac4e7ebbce2d9d5a1e24",
+        "excluded_hvg_zero_cell_positions.npy": "e734dac55ea9fbbe782af2d8c02c3c5992131906228afb2aaaf137d6f3ed74db",
+        "gene_positions.npy": "9644864623e20f1cf9942242974c822aad6fa65d7f698f6bab4b9e421e937925",
+        "log_input.npy": "9a942acdfde550338f9c8a0e6b1331835322eb04b8116f60d142c1e4f8671f6f",
+        "pre_hvg_cell_positions.npy": "6ede66e11e79ed63231b39af2166245ce7498c365177fa037821151c880bea72",
+        "statistics.npz": "7fb665595efccb261a34e24421412968250d7ca765136cd55f34d7fb9a618647"
+      },
+      "nb_h": {
+        "101": "cf7f2bde84a57c9c848a89f1bd68feac7bfb4eb0242fbdcf0bc461be3bf4de76",
+        "202": "f847f2b8092fae46db3d06c48704220f35761c106b07bea8f243ccc48ed31e58",
+        "303": "34ec3caeaa3c79898f63fd73ed11b8134b2dc6687adbf09569ca71281a0d621d",
+        "404": "487a57b5f673803d2492758e9e0f5ec63ed71d6d337ade5cf0495682b7859f29",
+        "505": "7b618f1d8126e88b365210fd6c40ab81940cd7220fc3bda83c3b8e9a96606522"
+      },
+      "nb_pretrain_epochs": {
+        "101": 400,
+        "202": 53,
+        "303": 53,
+        "404": 53,
+        "505": 53
+      }
+    }
+  },
+  "jobs": [
+    {
+      "id": "smoke__Romanov__expression__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "expression",
+        "--smoke"
+      ],
+      "result": "smoke/Romanov/expression/seed101/run.json",
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "smoke__Romanov__expression_dense__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "expression_dense",
+        "--smoke"
+      ],
+      "result": "smoke/Romanov/expression_dense/seed101/run.json",
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "smoke__Romanov__random__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "random",
+        "--smoke"
+      ],
+      "result": "smoke/Romanov/random/seed101/run.json",
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "smoke__Romanov__pca_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "pca_union",
+        "--smoke"
+      ],
+      "result": "smoke/Romanov/pca_union/seed101/run.json",
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "smoke__Romanov__mse_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "mse_union",
+        "--smoke"
+      ],
+      "result": "smoke/Romanov/mse_union/seed101/run.json",
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "smoke__Romanov__fusion_noaux__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "fusion_noaux",
+        "--smoke"
+      ],
+      "result": "smoke/Romanov/fusion_noaux/seed101/run.json",
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "runs__Romanov__fusion_reproduce__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "fusion_reproduce"
+      ],
+      "result": "runs/Romanov/fusion_reproduce/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "evaluate_existing_H",
+      "script": "evaluate.py",
+      "args": [],
+      "timeout_seconds": 7200
+    },
+    {
+      "id": "runs__Romanov__expression__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Romanov/expression/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "202",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Romanov/expression/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "303",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Romanov/expression/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "404",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Romanov/expression/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "505",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Romanov/expression/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "101",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Adam/expression/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "202",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Adam/expression/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "303",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Adam/expression/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "404",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Adam/expression/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "505",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Adam/expression/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "101",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "202",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "303",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "404",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "505",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "101",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "202",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "303",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "404",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "505",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "101",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "202",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "303",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "404",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "505",
+        "--variant",
+        "expression"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression_dense__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Romanov/expression_dense/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression_dense__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "202",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Romanov/expression_dense/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression_dense__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "303",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Romanov/expression_dense/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression_dense__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "404",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Romanov/expression_dense/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__expression_dense__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "505",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Romanov/expression_dense/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression_dense__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "101",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Adam/expression_dense/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression_dense__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "202",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Adam/expression_dense/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression_dense__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "303",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Adam/expression_dense/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression_dense__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "404",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Adam/expression_dense/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__expression_dense__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "505",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Adam/expression_dense/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression_dense__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "101",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression_dense/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression_dense__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "202",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression_dense/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression_dense__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "303",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression_dense/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression_dense__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "404",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression_dense/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__expression_dense__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "505",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Bladder/expression_dense/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression_dense__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "101",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression_dense/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression_dense__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "202",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression_dense/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression_dense__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "303",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression_dense/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression_dense__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "404",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression_dense/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__expression_dense__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "505",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_10x_Spleen/expression_dense/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression_dense__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "101",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression_dense/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression_dense__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "202",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression_dense/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression_dense__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "303",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression_dense/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression_dense__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "404",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression_dense/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__expression_dense__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "505",
+        "--variant",
+        "expression_dense"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/expression_dense/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__random__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Romanov/random/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__random__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "202",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Romanov/random/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__random__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "303",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Romanov/random/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__random__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "404",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Romanov/random/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__random__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "505",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Romanov/random/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__random__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "101",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Adam/random/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__random__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "202",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Adam/random/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__random__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "303",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Adam/random/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__random__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "404",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Adam/random/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__random__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "505",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Adam/random/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__random__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "101",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Bladder/random/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__random__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "202",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Bladder/random/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__random__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "303",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Bladder/random/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__random__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "404",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Bladder/random/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__random__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "505",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Bladder/random/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__random__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "101",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Spleen/random/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__random__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "202",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Spleen/random/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__random__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "303",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Spleen/random/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__random__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "404",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Spleen/random/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__random__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "505",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_10x_Spleen/random/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__random__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "101",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/random/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__random__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "202",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/random/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__random__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "303",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/random/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__random__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "404",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/random/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__random__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "505",
+        "--variant",
+        "random"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/random/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__pca_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Romanov/pca_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__pca_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "202",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Romanov/pca_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__pca_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "303",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Romanov/pca_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__pca_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "404",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Romanov/pca_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__pca_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "505",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Romanov/pca_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__pca_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "101",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Adam/pca_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__pca_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "202",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Adam/pca_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__pca_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "303",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Adam/pca_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__pca_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "404",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Adam/pca_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__pca_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "505",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Adam/pca_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__pca_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "101",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/pca_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__pca_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "202",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/pca_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__pca_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "303",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/pca_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__pca_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "404",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/pca_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__pca_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "505",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/pca_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__pca_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "101",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/pca_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__pca_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "202",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/pca_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__pca_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "303",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/pca_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__pca_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "404",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/pca_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__pca_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "505",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/pca_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__pca_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "101",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/pca_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__pca_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "202",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/pca_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__pca_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "303",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/pca_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__pca_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "404",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/pca_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__pca_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "505",
+        "--variant",
+        "pca_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/pca_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__mse_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Romanov/mse_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__mse_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "202",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Romanov/mse_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__mse_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "303",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Romanov/mse_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__mse_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "404",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Romanov/mse_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__mse_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "505",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Romanov/mse_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__mse_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "101",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Adam/mse_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__mse_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "202",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Adam/mse_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__mse_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "303",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Adam/mse_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__mse_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "404",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Adam/mse_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__mse_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "505",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Adam/mse_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__mse_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "101",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/mse_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__mse_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "202",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/mse_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__mse_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "303",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/mse_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__mse_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "404",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/mse_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__mse_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "505",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Bladder/mse_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__mse_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "101",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/mse_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__mse_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "202",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/mse_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__mse_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "303",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/mse_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__mse_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "404",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/mse_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__mse_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "505",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_10x_Spleen/mse_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__mse_union__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "101",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/mse_union/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__mse_union__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "202",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/mse_union/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__mse_union__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "303",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/mse_union/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__mse_union__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "404",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/mse_union/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__mse_union__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "505",
+        "--variant",
+        "mse_union"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/mse_union/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__fusion_noaux__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Romanov/fusion_noaux/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__fusion_noaux__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "202",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Romanov/fusion_noaux/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__fusion_noaux__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "303",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Romanov/fusion_noaux/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__fusion_noaux__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "404",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Romanov/fusion_noaux/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Romanov__fusion_noaux__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "505",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Romanov/fusion_noaux/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__fusion_noaux__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "101",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Adam/fusion_noaux/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__fusion_noaux__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "202",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Adam/fusion_noaux/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__fusion_noaux__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "303",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Adam/fusion_noaux/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__fusion_noaux__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "404",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Adam/fusion_noaux/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Adam__fusion_noaux__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Adam",
+        "--seed",
+        "505",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Adam/fusion_noaux/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__fusion_noaux__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "101",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Bladder/fusion_noaux/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__fusion_noaux__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "202",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Bladder/fusion_noaux/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__fusion_noaux__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "303",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Bladder/fusion_noaux/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__fusion_noaux__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "404",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Bladder/fusion_noaux/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Bladder__fusion_noaux__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "505",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Bladder/fusion_noaux/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__fusion_noaux__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "101",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Spleen/fusion_noaux/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__fusion_noaux__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "202",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Spleen/fusion_noaux/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__fusion_noaux__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "303",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Spleen/fusion_noaux/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__fusion_noaux__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "404",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Spleen/fusion_noaux/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_10x_Spleen__fusion_noaux__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "505",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_10x_Spleen/fusion_noaux/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__fusion_noaux__101",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "101",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/fusion_noaux/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__fusion_noaux__202",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "202",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/fusion_noaux/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__fusion_noaux__303",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "303",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/fusion_noaux/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__fusion_noaux__404",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "404",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/fusion_noaux/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "runs__Quake_Smart-seq2_Lung__fusion_noaux__505",
+      "script": "worker.py",
+      "args": [
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "505",
+        "--variant",
+        "fusion_noaux"
+      ],
+      "result": "runs/Quake_Smart-seq2_Lung/fusion_noaux/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Romanov__101",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "101"
+      ],
+      "result": "scsamac/Romanov/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Romanov__202",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "202"
+      ],
+      "result": "scsamac/Romanov/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Romanov__303",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "303"
+      ],
+      "result": "scsamac/Romanov/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Romanov__404",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "404"
+      ],
+      "result": "scsamac/Romanov/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Romanov__505",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Romanov",
+        "--seed",
+        "505"
+      ],
+      "result": "scsamac/Romanov/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Adam__101",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Adam",
+        "--seed",
+        "101"
+      ],
+      "result": "scsamac/Adam/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Adam__202",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Adam",
+        "--seed",
+        "202"
+      ],
+      "result": "scsamac/Adam/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Adam__303",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Adam",
+        "--seed",
+        "303"
+      ],
+      "result": "scsamac/Adam/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Adam__404",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Adam",
+        "--seed",
+        "404"
+      ],
+      "result": "scsamac/Adam/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Adam__505",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Adam",
+        "--seed",
+        "505"
+      ],
+      "result": "scsamac/Adam/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Bladder__101",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "101"
+      ],
+      "result": "scsamac/Quake_10x_Bladder/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Bladder__202",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "202"
+      ],
+      "result": "scsamac/Quake_10x_Bladder/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Bladder__303",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "303"
+      ],
+      "result": "scsamac/Quake_10x_Bladder/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Bladder__404",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "404"
+      ],
+      "result": "scsamac/Quake_10x_Bladder/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Bladder__505",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Bladder",
+        "--seed",
+        "505"
+      ],
+      "result": "scsamac/Quake_10x_Bladder/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Spleen__101",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "101"
+      ],
+      "result": "scsamac/Quake_10x_Spleen/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Spleen__202",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "202"
+      ],
+      "result": "scsamac/Quake_10x_Spleen/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Spleen__303",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "303"
+      ],
+      "result": "scsamac/Quake_10x_Spleen/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Spleen__404",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "404"
+      ],
+      "result": "scsamac/Quake_10x_Spleen/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_10x_Spleen__505",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_10x_Spleen",
+        "--seed",
+        "505"
+      ],
+      "result": "scsamac/Quake_10x_Spleen/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_Smart-seq2_Lung__101",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "101"
+      ],
+      "result": "scsamac/Quake_Smart-seq2_Lung/seed101/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_Smart-seq2_Lung__202",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "202"
+      ],
+      "result": "scsamac/Quake_Smart-seq2_Lung/seed202/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_Smart-seq2_Lung__303",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "303"
+      ],
+      "result": "scsamac/Quake_Smart-seq2_Lung/seed303/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_Smart-seq2_Lung__404",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "404"
+      ],
+      "result": "scsamac/Quake_Smart-seq2_Lung/seed404/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "scsamac__Quake_Smart-seq2_Lung__505",
+      "script": "scsamac_worker.py",
+      "args": [
+        "--method",
+        "scSAMAC",
+        "--dataset",
+        "Quake_Smart-seq2_Lung",
+        "--seed",
+        "505"
+      ],
+      "result": "scsamac/Quake_Smart-seq2_Lung/seed505/run.json",
+      "timeout_seconds": 10800
+    },
+    {
+      "id": "evaluate_complete_grid",
+      "script": "evaluate.py",
+      "args": [],
+      "timeout_seconds": 10800
+    }
+  ],
+  "worker_hashes": {
+    "worker.py": "2e5023d67bd184cc513792c3833eb166fcae5da20af34a667672e0de72c22787",
+    "queue.py": "b487c886f161bdcde816a92f465a6acb5c3c01a2517bc9d68b7b614fa3053626",
+    "evaluate.py": "0236a9e374b5da281f5c80ce7f0bd70a568988ce4857e43cddc0f2d13572b50c",
+    "scsamac_worker.py": "29c2fc3f6d7849e504c7ba0d1812c3e830a7701262440d479316ace38f40a928",
+    "prepare.py": "f048d9e50e1e15afae2b90c3629a865fd7ead7373f363d02d284027bbcc26c3a"
+  },
+  "frozen_method_manifest_sha256": "d732f33ae031fb80ba2ffa63d2cfcf16c4e49ec436e65ddc67ffaa577f3721c0",
+  "primary_scope": "Five previously evaluated primary datasets. Fixed-design reviewer follow-up; not newly unseen validation.",
+  "changes": {
+    "expression": "Same NB auxiliary loss and encoder; E_X at training and inference.",
+    "expression_dense": "E_X plus expression kNN shells to exactly match the corresponding NB union edge count; final shell trimmed by distance then cell indices.",
+    "random": "Equal-cardinality added edges absent from E_X; original independent random-edge sampler.",
+    "pca_union": "PCA32 of the same standardized count-encoder input; same 15-neighbor latent graph recipe.",
+    "mse_union": "Denoising MSE autoencoder with same 2000-256-64-32 encoder, symmetric hidden decoder, paired NB initial weights/RNG, noise=2.5, Adam AMSGrad .001, batch256, fixed epochs matching each original NB run (<=400, original early stopping included); linear output and standardized-input MSE target.",
+    "fusion_noaux": "Original NB graph union; auxiliary decoder retained with weight zero to preserve paired initialization.",
+    "scSAMAC": "Stable masked-logsumexp implementation on every dataset and all five seeds; 300 pretraining, <=2000 joint epochs; native and L2KMeans20 outputs."
+  },
+  "graph_training": {
+    "updates": 501,
+    "subgraph_nodes": 400,
+    "sampling": "uniform node induced subgraph",
+    "objective": "Frozen base-base + adversarial-adversarial + .1 NB auxiliary",
+    "attack": "Frozen feature-only PGD. Do not add topology PGD to these experiments.",
+    "readout": "L2 KMeans20, training seed"
+  },
+  "analysis": {
+    "primary": "dataset-equal ARI",
+    "secondary": [
+      "NMI",
+      "median",
+      "paired differences",
+      "per-class precision/recall/F1",
+      "graph homophily and conductance"
+    ],
+    "intervals": "10000 conditional paired seed bootstraps and hierarchical dataset/seed bootstraps; dataset clusters=5",
+    "direct_H": [
+      "raw KMeans20",
+      "L2 KMeans20"
+    ],
+    "no_result_driven_tuning": true
+  },
+  "scsamac_adapter_parent": {
+    "path": "F:\\cluster-noise\\nb_scgaam_comparison\\experiments\\external_baselines_v1\\repairs\\scsamac_spleen_logsumexp_v1\\run_stable.py",
+    "sha256": "cca4aafae4c46bd1c225e0e75635ace2b888e058618377b8b3a79b0aab33ae43",
+    "changes": [
+      "allow five datasets and five seeds",
+      "redirect outputs",
+      "pin original source directory"
+    ]
+  },
+  "monitoring": {
+    "serial_gpu": true,
+    "poll_seconds": 10,
+    "stop_on_failure": true,
+    "automatic_retry": false
+  },
+  "deferred": [
+    "Development-set expansion to 10 seeds",
+    "scMCGF and Leiden benchmarks",
+    "Full scCAGN multiseed extension",
+    "Additional graph-weighting variants"
+  ]
+}

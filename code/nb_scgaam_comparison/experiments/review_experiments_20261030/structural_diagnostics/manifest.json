@@ -1,0 +1,18 @@
+{
+  "script_sha256": "102534593912e05d233f24c5192fd567260b29497e38550753013af280365d0a",
+  "inputs": {
+    "Bach__seed11.npz": "dcc9a16c5ba32b11c9e130aa21a672ee26a3481d3fa7a1e4f911e0ad857ff185",
+    "Bach__seed22.npz": "0346c6a1ba879ca998f924069abc366abd6e499136f0aa8ae50aaf09e7e3b683",
+    "Bach__seed33.npz": "c7d3a09d5691850b787fa3dd0936769cfec3e11b8ee1ce12c4af8deae9e2e611",
+    "Limb_Muscle__seed11.npz": "c5a9f7bc502ef80297610b9aaa3face4b08cbee7025ecf2d526ea806f4761457",
+    "Limb_Muscle__seed22.npz": "cc3ebbe7829c6b52c73fbd645f38d0c0f81c475eed5843e63977212664683d0a",
+    "Limb_Muscle__seed33.npz": "599ef3c42ad36584da81aaa66e9d08c57370d7fd3e74082d3afb212cad218af8",
+    "Tosches__seed11.npz": "e16b91918bc6188a7e5e2ecad0ff964bbc90dde64ed63e7f349ed47d204657d5",
+    "Tosches__seed22.npz": "ac2b1aeb78a5c0c80c0f6731ce39d22397a8183b57dc1b212107b6dc6d94e5e6",
+    "Tosches__seed33.npz": "7ec7f5f274cf2d0e449cd946950278a38b821789e51032d2d6e30bd92e194d93",
+    "Worm_Neuron__seed11.npz": "ac2410210db782d9a22676fa27cbb30b52cb6a6eb6637a47b68eb51538f811ed",
+    "Worm_Neuron__seed22.npz": "150d85f70faaf2e9d5466fd094f321b1bc715adf4b7f165c865a04e4700196ce",
+    "Worm_Neuron__seed33.npz": "3c65efd95eedd9cb7fb78f3fdb44e5c892151c24382f6b169cb68fbca12dd379"
+  },
+  "purpose": "Posthoc descriptive diagnostics only. No fitting, hyperparameter selection, or training input changes."
+}

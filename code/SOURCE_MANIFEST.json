@@ -1,0 +1,1394 @@
+[
+  {
+    "file": "nb_scgaam_comparison/scripts/acquire_data.py",
+    "sha256": "fb5d4c7e3dacdd9f4358286229d705b085dcc27cef485c5dfe00658881bd99aa"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/acquire_parallel.py",
+    "sha256": "69fba5a80a8eb2f9d1c4e4ec443a3bdbdfcd0200c81e628377dcd9268b531c8b"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/acquire_parallel_retry.py",
+    "sha256": "0c93ab24c4efd4041f3eb58fd5e1f85528ce1b78b358cb89e01ed3e6aeb8400d"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/adapt_sources.py",
+    "sha256": "056b990c83c70b2ff19f7d6a759b7164eaff2f58f30ce1c5acb2b5e7db85d84c"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/audit_prepared.py",
+    "sha256": "4acebc7755ecfa008c48552eac1f3f2d4a4abd7158a47280554f35d82a2e818e"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/audit_prepared_hvg_r1.py",
+    "sha256": "ad55c04a28c08d47a6963bc836e28ab01e48e3daa8740e42a1a1fef5664ce9e1"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/audit_run.py",
+    "sha256": "cb364f18966d8cf0dfed4e83aa4f876b461336839514414b4deaa1edb78173a2"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/build_report.py",
+    "sha256": "d4db7cc6c66770c30451a09aed8af5bfe42559cd856333e9a66cc1143e43ceb3"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/build_report_pca_r1.py",
+    "sha256": "52a9c03d97c171953fde2f9ff172dcd48772a23da01891fad30ca8b1573057e4"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/common.py",
+    "sha256": "466ca9a7470aa0814be006c2f5f32efc9c22b9eee31d022c7deddc3fad90cf8e"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/diagnose_sparse_reload.py",
+    "sha256": "8a3cc7cceb282cd807215058a96a1caa6ae6034e7e3f87bcb159d5798a53a084"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/evaluate.py",
+    "sha256": "b02e97c3e23a3e27dea2302ba9cb1ceddfe1fb8f2230f95752aa8071f2df3cb9"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/freeze_plan.py",
+    "sha256": "4c4bfba7158092ed07a999d62ce754fbf5297cf6984775d145f2283cccf54656"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/prepare.py",
+    "sha256": "9b774f33da5cb4491d5cf3b27443e6d539e7d3c56de6fccfea1780d9929e5f68"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/prepare_hvg_r1.py",
+    "sha256": "5ff36d77b36fb738d055052b347a5cb8b9bb33bbae9d7560f02f67874ff5320d"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/recover_download.py",
+    "sha256": "9a03eec01e3d2f65bce32b6f34fc36f175810cf6acead7b6b73cd14f29efe6ed"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/run_queue.py",
+    "sha256": "936f14eb6133942e0d2aa7522c86df27efdf96a992bc12a0b3944407133c9902"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/run_queue_hvg_r1.py",
+    "sha256": "2bda921d4c6ded7a9361e9ff2bc9265fffffeb0cc52ce44f201612cc8b6d8d3e"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/run_queue_pca_r1.py",
+    "sha256": "1437702617f614501f372815cd55fce6fb42c540e4c15684cc495cf220d2d2c9"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/train_one.py",
+    "sha256": "e6546bec7505c7df9738feef6ce178fc3b0063e359f4b08443d57dba0c025354"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/train_pca_r1.py",
+    "sha256": "b0085834c6e7a535f84a54bb60334b3af0873bd8f96433cce9ac88ae16a96f17"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/verify_adaptation.py",
+    "sha256": "60be97f3fc649e03fba8bb7efddbcfc60e0aae0f95df714f9acfbb0b4003f03b"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/verify_sparse_adaptation.py",
+    "sha256": "0a827976714e1024e72845b4fbdcba0eb3558ddde3967ceb3490483649f054eb"
+  },
+  {
+    "file": "nb_scgaam_comparison/scripts/verify_training_equivalence.py",
+    "sha256": "35e85d406f0d23d70b7430f685fcb22d2d45596c5d1b1297aa2ccb4b6034bbdb"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scdeepcluster/layers.py",
+    "sha256": "856aed8dc6516aa9587e0d3063eae224985431ae39eda467b48b3c1fdef0c39e"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scdeepcluster/methods.py",
+    "sha256": "5d689d275c321faa490e2b90486593700438d06f0e2b9c2dcf6536cfcae613f9"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scdeepcluster/preprocess.py",
+    "sha256": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scdeepcluster/scDeepCluster.py",
+    "sha256": "9cd5f5bddce6678cb4a06ff23f8cea0897dd79ea7da768ac2f35d658cb1a251f"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scgaam/GATEncoder.py",
+    "sha256": "55fc9f77bb4397555ce68c06686ff8949f4ffe07bd908ca7c274eb0bbc4ec486"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scgaam/GNNEncoder.py",
+    "sha256": "ac640d9af05e34bf5ab6cf7da477a9ac0f4f092b441255536d8b03d036ec1665"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scgaam/model.py",
+    "sha256": "9d15b3d51bb6cb34e9d14250538c5d7b95ce5a290af6e33bbad106c91ed72b9a"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scgaam/scGAAM.py",
+    "sha256": "743371b99a906c75823edbf7db56fc8d2836d198b61ece1fabf52f3fc3d15928"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scgaam/train.py",
+    "sha256": "9351daacb054721df1ac138d8125c4f27eea09d0ba0721e4f728397c9fb5fe94"
+  },
+  {
+    "file": "nb_scgaam_comparison/source/scgaam/utils.py",
+    "sha256": "97d7d9545c96448d3ab2236af9a4a9704dc72fcbf2f5f23ca3e4a7153502e51f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/audit_gcl.py",
+    "sha256": "526e9454026c0953a8603d2278976f9993bcca88b5fe37962f014248bbbff146"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/common.py",
+    "sha256": "0afd938b9063d494b3661f53968771b3faf09ba338f7c3c25863434f68aca208"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/download_holdouts.py",
+    "sha256": "2cabd13fde4dc25590bca13c4595e19652a47e2a3fd5e5838cb3a811e5a526cd"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/evaluate.py",
+    "sha256": "231a8da00f8b8df0d261c51f018b62cafa723a41efdb6f6b0fe0471b2886beac"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/frozen_readout.json",
+    "sha256": "01ec8d9a81766735be8a4a1d4eef45626c6089894310e8e7b9a2ec688ed831af"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/gcl_train.py",
+    "sha256": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/protocol.json",
+    "sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/readouts.py",
+    "sha256": "a997c87ebedf521c117d57ddc3f65a53d29ea7b3fef24bfc2348649567c4ff16"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/run_queue.py",
+    "sha256": "f8e6c8eb1a7d604a12d3e98825555c47f224571b74eec6dc1c1241bd1fe045d7"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/stage0.py",
+    "sha256": "e1700493bc8659d47236916959224f2a2fbd57c324ae3903f84d63afbfc7024b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/test_protocol.py",
+    "sha256": "c16f8aef74222d093c215fa3d35de90fd63d7111926680691c9098dde6edd7d2"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/train_gcl.py",
+    "sha256": "1f50a265c6a51fdddc057444fabb3b1cb3d403a0d55261020f196c1127687c9e"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/train_r6.py",
+    "sha256": "b30b8e5ad682c6a4a3e5bd8bd0710394b7bb77cce18b2aebf4e0fcd315d1a042"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/train_scsamac.py",
+    "sha256": "0a03cefff5c4ca35230f1c6996b76da1f549e8ed7ff179c88581cd12c257ab47"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/audit.py",
+    "sha256": "b79558c9f69694a5a0a8f7d0e2f3371484c7b08b84f43816c626874a314f864b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/audit_before_original_queue_complete.py",
+    "sha256": "9fa144f05a93c631ffb08734adbe41f80e2470751ff457e3149d06eb5980df45"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/audit_heldout_training.py",
+    "sha256": "8ff1499b0043880f67d8c0c440d1af3b0d8f7b279e89fc9233edb0517ac5f380"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/audit_muraro_supplement.py",
+    "sha256": "e464c73da46b6fb989dca74702c264d70ca37c5edef701f531552db40567f2c8"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/check_muraro_downloads.py",
+    "sha256": "d4960c2fe7ebd7036b4cb8c547eacb199be76fc388a8bcac23511d042e13d8c7"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/evaluate_controls.py",
+    "sha256": "aa8e3123ac9f3c4123dff01e2efe24b0d3f0619cdfa12f04d95ef332724a0515"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/evaluate_five_holdouts.py",
+    "sha256": "87f569de6bdfd6e027e733a3792170b92d448323ee02cbe8e068de9e061640aa"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/evaluate_muraro_supplement.py",
+    "sha256": "998da5ba40437a89b433ed3bb418c52d688bce29694939ae93b39a48d073f045"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/evaluate_new_embeddings.py",
+    "sha256": "dcc3ef26cd2dccc55ab3bcb905aec5f3fc640a49f885640d494081075145f858"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/factorial.py",
+    "sha256": "a5b01eae93695f9e4444d858756f58bffbe012b0e8fdca2f28645ccb349caee4"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/heldout_train_adapter.py",
+    "sha256": "9285a102af58e33f6dec9eb96d374cefaef07e4784cd332b60cb686663963167"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/muraro_train_adapter_v1.py",
+    "sha256": "124142deba9d405c5a2aaf8320570e1ff9981825c4684d59329e27123651869b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/prepare_controls.py",
+    "sha256": "628f24e66972bd9579b1692c885cce3b9b5e7666ddfe3ae8e3ed3988611ca410"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/prepare_heldouts_v1.py",
+    "sha256": "cd5c3a005fd034907295cbd2693970c61fb20ab4fe65e4ec5901811e81813221"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/prepare_heldouts_v2.py",
+    "sha256": "169cee6aeea613d19241d1e4cd3d8684a0fa79b6f23f92f85654f55eb67341e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/prepare_muraro_corrected_v1.py",
+    "sha256": "6ace1b4e129fed0116f934544be62c5457c6dba8e83820b34cd3e34cb60223ee"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/reanalyse_new_embeddings.py",
+    "sha256": "6a4a7e7805ea41ff87cb30d062c9ecdad1bdbebf660e50f147ea1cc02c89abe4"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/run_heldout_v1.py",
+    "sha256": "e5791696eb44a5ae30949491d72042ad17d955e2e6ce6e07bd9107fd1f2f0d63"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/run_muraro_corrected_v1.py",
+    "sha256": "10dfa99abbba4852157562520010752579c74254b8e69cad854dea4dd459bf9c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_v1/candidate_workspace/gcl_train.py",
+    "sha256": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_v1/candidate_workspace/protocol.json",
+    "sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_v1/preparation_attempt_001/prepare_heldouts_v1.py",
+    "sha256": "cd5c3a005fd034907295cbd2693970c61fb20ab4fe65e4ec5901811e81813221"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_v1/smoke_workspace/gcl_train.py",
+    "sha256": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_v1/smoke_workspace/protocol.json",
+    "sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_muraro_corrected_v1/candidate_workspace/gcl_train.py",
+    "sha256": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_muraro_corrected_v1/candidate_workspace/protocol.json",
+    "sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_muraro_corrected_v1/smoke_workspace/gcl_train.py",
+    "sha256": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/heldout_muraro_corrected_v1/smoke_workspace/protocol.json",
+    "sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/controls_v1/manifest.json",
+    "sha256": "82784a7102e51d9a7dfa1363fe0e8a40763c6e18f11b94a3e70ad2cef1ac8c22"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/controls_v1/run_controls.py",
+    "sha256": "36022ad053a079d74e58961670ee15a3dc0b6d66754252a1aa5d4cc979e61d7a"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/controls_v1/train_gcl_control.py",
+    "sha256": "ad0c62f539bcad4b04ca513befec2694dea25cf74d9d4314b90489f6d4dcc140"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/controls_v1/train_r6_control.py",
+    "sha256": "a91fe993712f449a3c3b2175a252d0ea734b706c752a97b1f47e7b6c9832d4e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/manifest.json",
+    "sha256": "d732f33ae031fb80ba2ffa63d2cfcf16c4e49ec436e65ddc67ffaa577f3721c0"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/muraro_download_audit/check_initial_duplicate_rejection.py",
+    "sha256": "affb6c8a857183814447e048b97bd5c059173bd44b5095345e0e60b886aed008"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/new_embedding_readouts_v1/manifest.json",
+    "sha256": "475fb42ea7d93945ce893053d386b19a0da1d64989d07dfa9049f323b1994783"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/evaluate_supplement.py",
+    "sha256": "9b3e31fdecf9914260041c7fcee0736b47de8329183ac9c06fce74d0255fdafe"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/finalize_review.py",
+    "sha256": "8be2d7082ad935f6d98c5dc2ce04e6f3b9d7ec15ecefcdb2c65df202f689b917"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/protocol.json",
+    "sha256": "d5b1bd6ea17db377df1c1c5e5763057b4b2276d8990911acdbc3f293b5538bbe"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/random_graph.py",
+    "sha256": "85f2eb4093cc42e255beb2ebb069d53498ca9447597289cbca25fd64f97c3a89"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/run_queue.py",
+    "sha256": "a21f06e25f076045e71abf17c57f75e55e1c907c8da0c6e1b6f2505b822f0bd0"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/train_random.py",
+    "sha256": "eff4bbbc2eaa1e3b77b707fc601041db1d7f771b87c59db2f4faa2cc3389c775"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/source/scgaam/GATEncoder.py",
+    "sha256": "55fc9f77bb4397555ce68c06686ff8949f4ffe07bd908ca7c274eb0bbc4ec486"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/source/scgaam/GNNEncoder.py",
+    "sha256": "ac640d9af05e34bf5ab6cf7da477a9ac0f4f092b441255536d8b03d036ec1665"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/source/scgaam/model.py",
+    "sha256": "9d15b3d51bb6cb34e9d14250538c5d7b95ce5a290af6e33bbad106c91ed72b9a"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/source/scgaam/scGAAM.py",
+    "sha256": "743371b99a906c75823edbf7db56fc8d2836d198b61ece1fabf52f3fc3d15928"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/source/scgaam/train.py",
+    "sha256": "9351daacb054721df1ac138d8125c4f27eea09d0ba0721e4f728397c9fb5fe94"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/source/scgaam/utils.py",
+    "sha256": "97d7d9545c96448d3ab2236af9a4a9704dc72fcbf2f5f23ca3e4a7153502e51f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/experiments/cross_dataset_v1/common.py",
+    "sha256": "0afd938b9063d494b3661f53968771b3faf09ba338f7c3c25863434f68aca208"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/experiments/cross_dataset_v1/evaluate.py",
+    "sha256": "231a8da00f8b8df0d261c51f018b62cafa723a41efdb6f6b0fe0471b2886beac"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/experiments/cross_dataset_v1/gcl_train.py",
+    "sha256": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/experiments/cross_dataset_v1/protocol.json",
+    "sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/experiments/cross_dataset_v1/train_gcl.py",
+    "sha256": "1f50a265c6a51fdddc057444fabb3b1cb3d403a0d55261020f196c1127687c9e"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/random_edges_v1/source_snapshot/experiments/cross_dataset_v1/train_r6.py",
+    "sha256": "b30b8e5ad682c6a4a3e5bd8bd0710394b7bb77cce18b2aebf4e0fcd315d1a042"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/scripts/prepare_hvg_r1.py",
+    "sha256": "5ff36d77b36fb738d055052b347a5cb8b9bb33bbae9d7560f02f67874ff5320d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/scripts/train_one.py",
+    "sha256": "e6546bec7505c7df9738feef6ce178fc3b0063e359f4b08443d57dba0c025354"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scdeepcluster/layers.py",
+    "sha256": "856aed8dc6516aa9587e0d3063eae224985431ae39eda467b48b3c1fdef0c39e"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scdeepcluster/methods.py",
+    "sha256": "5d689d275c321faa490e2b90486593700438d06f0e2b9c2dcf6536cfcae613f9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scdeepcluster/preprocess.py",
+    "sha256": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scdeepcluster/scDeepCluster.py",
+    "sha256": "9cd5f5bddce6678cb4a06ff23f8cea0897dd79ea7da768ac2f35d658cb1a251f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scgaam/GATEncoder.py",
+    "sha256": "55fc9f77bb4397555ce68c06686ff8949f4ffe07bd908ca7c274eb0bbc4ec486"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scgaam/GNNEncoder.py",
+    "sha256": "ac640d9af05e34bf5ab6cf7da477a9ac0f4f092b441255536d8b03d036ec1665"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scgaam/model.py",
+    "sha256": "9d15b3d51bb6cb34e9d14250538c5d7b95ce5a290af6e33bbad106c91ed72b9a"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scgaam/scGAAM.py",
+    "sha256": "743371b99a906c75823edbf7db56fc8d2836d198b61ece1fabf52f3fc3d15928"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scgaam/train.py",
+    "sha256": "9351daacb054721df1ac138d8125c4f27eea09d0ba0721e4f728397c9fb5fe94"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/source/scgaam/utils.py",
+    "sha256": "97d7d9545c96448d3ab2236af9a4a9704dc72fcbf2f5f23ca3e4a7153502e51f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/audit_gcl.py",
+    "sha256": "526e9454026c0953a8603d2278976f9993bcca88b5fe37962f014248bbbff146"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/common.py",
+    "sha256": "0afd938b9063d494b3661f53968771b3faf09ba338f7c3c25863434f68aca208"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/download_holdouts.py",
+    "sha256": "2cabd13fde4dc25590bca13c4595e19652a47e2a3fd5e5838cb3a811e5a526cd"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/evaluate.py",
+    "sha256": "231a8da00f8b8df0d261c51f018b62cafa723a41efdb6f6b0fe0471b2886beac"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/frozen_readout.json",
+    "sha256": "01ec8d9a81766735be8a4a1d4eef45626c6089894310e8e7b9a2ec688ed831af"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/gcl_train.py",
+    "sha256": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/protocol.json",
+    "sha256": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/readouts.py",
+    "sha256": "a997c87ebedf521c117d57ddc3f65a53d29ea7b3fef24bfc2348649567c4ff16"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/run_queue.py",
+    "sha256": "f8e6c8eb1a7d604a12d3e98825555c47f224571b74eec6dc1c1241bd1fe045d7"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/stage0.py",
+    "sha256": "e1700493bc8659d47236916959224f2a2fbd57c324ae3903f84d63afbfc7024b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/test_protocol.py",
+    "sha256": "c16f8aef74222d093c215fa3d35de90fd63d7111926680691c9098dde6edd7d2"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/train_gcl.py",
+    "sha256": "1f50a265c6a51fdddc057444fabb3b1cb3d403a0d55261020f196c1127687c9e"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/train_r6.py",
+    "sha256": "b30b8e5ad682c6a4a3e5bd8bd0710394b7bb77cce18b2aebf4e0fcd315d1a042"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/cross_dataset_v1/followup/final_method_v1/source_snapshot/experiments/cross_dataset_v1/train_scsamac.py",
+    "sha256": "0a03cefff5c4ca35230f1c6996b76da1f549e8ed7ff179c88581cd12c257ab47"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/evaluate.py",
+    "sha256": "0236a9e374b5da281f5c80ce7f0bd70a568988ce4857e43cddc0f2d13572b50c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/prepare.py",
+    "sha256": "89910de3cfb8a9856b64d9fef25749863b27348ce535a42b3fc9da131e977c8e"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/protocol.json",
+    "sha256": "86d2277c801bf9d5e644a49dafb6f32722ae9d4748fab840162d26b1eb0b9f7d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/scsamac_worker.py",
+    "sha256": "29c2fc3f6d7849e504c7ba0d1812c3e830a7701262440d479316ace38f40a928"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/structural_diagnostics.py",
+    "sha256": "102534593912e05d233f24c5192fd567260b29497e38550753013af280365d0a"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/supervisor.py",
+    "sha256": "89a237b2bed051bccdb8e36329615487ff9de875dd6cbddf7fa48921e2dc7935"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/worker.py",
+    "sha256": "2e5023d67bd184cc513792c3833eb166fcae5da20af34a667672e0de72c22787"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/structural_diagnostics/manifest.json",
+    "sha256": "0bc51522db091cbc54a3226b29228521b6ad728248a6837a04dd5a27d149c6fa"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/review_experiments_20261030/audit/launch_001/protocol.json",
+    "sha256": "aee0df1bf6ea6527d339bc3f5892e58ba14e8aa9381b2b4eef94bb2d68486d59"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/benchmark_acceleration.py",
+    "sha256": "8012b595fcb9bec9cbcf03cbacc1d65f71afe306c243f2bd7e60a3bbd2cb8ed2"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnose_spleen_101.py",
+    "sha256": "89e3e2a1190fce85bef06cbc7e06a6091474fe60688195ee8e36396663977995"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/evaluate_external.py",
+    "sha256": "e01588af3d60e6011029e02a99c8435f69492741f7569940fcf03b0d8853de9c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/evaluate_external_single_seed_v2.py",
+    "sha256": "1fa0cfb35274c5c794553f4d3db972cb82bda2bc8e3c7a3f0e15d5681f3f77f6"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/evaluate_external_single_seed_v3.py",
+    "sha256": "349b9952f818bf7d9236e9e41b55d71ae9b65a281081b57d34734720db0d1148"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/package_partial_single_seed_v1.py",
+    "sha256": "70d7eab4478e971ebc9d524993d9e0259a62cab5abeaaa22bcfc9f0b727c3f78"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/prepare_concurrency_full.py",
+    "sha256": "7e01f289d0803b0f6fac05847e6785e856d8fd7fa25737965f499eae26467597"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/prepare_resume_r2.py",
+    "sha256": "c2c2191bca0d3343b3e8e14e0a8aeadd9751c53c15ed828c4ef8bd912fcc8891"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/prepare_resume_r3.py",
+    "sha256": "d20fb4048f08cb0d8b9ca91c3d8e49c5add068e2805240821be5b395dd2d812c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/prepare_stable_scsamac_v1.py",
+    "sha256": "88b806267884c75a018b4c01e0064d9fcb90cb151116d5d6f34655c27365be38"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/profile_sccagn.py",
+    "sha256": "ca1f6339834ba8917af27115b502164697bdf496dc7bfe9d7790f2de50a7cc3a"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/review_acceleration_v1.py",
+    "sha256": "e6c9b9fd9b4aa7ff8e535b525285e263b8e389baf66cb1b882aec276ebc8fb61"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/review_concurrency_v1.py",
+    "sha256": "bba7c4516d3f9a89d8e5a9e8dfc989222225ed65480e32cb54e7e44cf2200b3a"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_acceleration_validation.py",
+    "sha256": "187e0f85042738571c3cd60d12c2bc5002793c4dc7802148fa7b8e07de0a2a87"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_concurrency_full.py",
+    "sha256": "9bf6ebe8f2d2fe4000f1de1eb956e45a78a8f53e2c715f624bde6f2345f41b68"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_one.py",
+    "sha256": "9a63dd522c41c615f92d745923c4069bb692365812bb024e7b152a38a6191402"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_queue.py",
+    "sha256": "254f89693f5fd809e9458980453e7305b24cee9629af02556c18f012df0b826f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_queue_r2.py",
+    "sha256": "d6ef18979d71745df16de41aeed1932abc5a15430ff1653d911efbb93aa1fea3"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_queue_r3.py",
+    "sha256": "b6acf7e67dc86204fc44b80e0fe6b8f802fa8ee10017cf25b7045993dc10988f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_queue_single_seed_v2.py",
+    "sha256": "fd98a9242a2fb8bbcc78d3a2e37bd1a5016acf3efae91c18e0e825fdc8b1e735"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/run_queue_single_seed_v3.py",
+    "sha256": "103e2708f91000af0183799be06b0393d42c9765552d2c98adee183094773ef0"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/setup_protocol.py",
+    "sha256": "1dd33ea190ad84f26ada2021e535e4cff55f61bf9ce44362249a4a3769b89b81"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/validate_concurrency_full.py",
+    "sha256": "3c5e5c4f4b918cdec9253dffe76dd2ed5c91fc96245b7be415ef25cde78eaf18"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/validate_resident_full.py",
+    "sha256": "4cc5091338320526ef1bf5a1f39f196308f2768ac0cece4738d903649a5bfa85"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scAGCL/model.py",
+    "sha256": "d40c30d3c2ed44bcfc3a5ab0975613073864e51c3dbf53f6411b6bf1bc39f452"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scAGCL/scAGCL.py",
+    "sha256": "e911524c7b013b12edfb84995dbb7b6c55da96fc4cca6f4a30f2f68a2d542b77"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scAGCL/train.py",
+    "sha256": "f7363aa0dbe843f527f8fb7422202c42f70bfa29938a1e30f88cf42edca16e2b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scAGCL/utils.py",
+    "sha256": "ca4bcf9e7fd3e09946b9c6c636ec625f252d9de97675cbfe6c293469ceba09c3"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/pretrain.py",
+    "sha256": "545a49a74b503dcac4abf01d4f68dda4940d5a5739fc2a5d69f64b92007e399d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/scCAGN.py",
+    "sha256": "10af724de53627ca8a65f2dddd350f032af7ea2fb510afc9adf8032694aca448"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/upstream/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/evaluate_validation.py",
+    "sha256": "b3848d5f60fe98c184c3c8a0cdf41638952e9cd31cd23530542ecd54e31fe588"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/run_one.py",
+    "sha256": "9a63dd522c41c615f92d745923c4069bb692365812bb024e7b152a38a6191402"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/run_stable.py",
+    "sha256": "cca4aafae4c46bd1c225e0e75635ace2b888e058618377b8b3a79b0aab33ae43"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/test_operator.py",
+    "sha256": "c6f2a45063d5b91d5e27ff16043cb0cb214530769c096ee9a3ed0a2b1aa578bc"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/layers.py",
+    "sha256": "62190b89bb11bd28367d80af9f182b55dbfd3cd2b0335c5788db44ea13d8a7c5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/predata.py",
+    "sha256": "9fd07bd2dbe91aed5a61a3bc668375b3508766e2323129d29377af576c0f0270"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/preprocess.py",
+    "sha256": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/run_scSAMAC.py",
+    "sha256": "d564f02a4ddefb0977114fe4f692dca331bbb4813f7ce72eef1ecd523601533f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/scSAMAC.py",
+    "sha256": "7553ca525c5a64349287e3f1dd69f5975e7530f0366c788ad9c704a6f3fc39d5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/single_cell_tools.py",
+    "sha256": "075c57972f02abf9294133cec5090eff892df41b99aaee37fa4e9b522cdc0b9d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/st_loss.py",
+    "sha256": "5b0a3e897bbdb9338a64a0cb835f58a1dfd2f046eb49121354fd37f239e96edc"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_original/utils.py",
+    "sha256": "8a4a68e2525c18572eff9122a7f92c30ecbe639141dd0f0f7f7810140153aeb6"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/layers.py",
+    "sha256": "62190b89bb11bd28367d80af9f182b55dbfd3cd2b0335c5788db44ea13d8a7c5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/predata.py",
+    "sha256": "9fd07bd2dbe91aed5a61a3bc668375b3508766e2323129d29377af576c0f0270"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/preprocess.py",
+    "sha256": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/run_scSAMAC.py",
+    "sha256": "d564f02a4ddefb0977114fe4f692dca331bbb4813f7ce72eef1ecd523601533f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/scSAMAC.py",
+    "sha256": "7553ca525c5a64349287e3f1dd69f5975e7530f0366c788ad9c704a6f3fc39d5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/single_cell_tools.py",
+    "sha256": "075c57972f02abf9294133cec5090eff892df41b99aaee37fa4e9b522cdc0b9d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/st_loss.py",
+    "sha256": "d813590b497e51f0870f38ea0d54b69eda7e9640b39b809854f51640a904c3c4"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/repairs/scsamac_spleen_logsumexp_v1/source_stable/utils.py",
+    "sha256": "8a4a68e2525c18572eff9122a7f92c30ecbe639141dd0f0f7f7810140153aeb6"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/source_snapshot/benchmark_acceleration.py",
+    "sha256": "8012b595fcb9bec9cbcf03cbacc1d65f71afe306c243f2bd7e60a3bbd2cb8ed2"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/source_snapshot/run_acceleration_validation.py",
+    "sha256": "187e0f85042738571c3cd60d12c2bc5002793c4dc7802148fa7b8e07de0a2a87"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/source_snapshot/validate_resident_full.py",
+    "sha256": "4cc5091338320526ef1bf5a1f39f196308f2768ac0cece4738d903649a5bfa85"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/pretrain.py",
+    "sha256": "545a49a74b503dcac4abf01d4f68dda4940d5a5739fc2a5d69f64b92007e399d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/scCAGN.py",
+    "sha256": "10af724de53627ca8a65f2dddd350f032af7ea2fb510afc9adf8032694aca448"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/upstream/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/pretrain.py",
+    "sha256": "1cd732a71f504a5faac9f9a5523cbc143d61c181d5bdc66dcddd9fee6d8eef9f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/scCAGN.py",
+    "sha256": "751fbed7c2d29a2d1b81e072fe9be7d823389f6b948f8c667e7d4e45745d2845"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/resident/adapted/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/pretrain.py",
+    "sha256": "545a49a74b503dcac4abf01d4f68dda4940d5a5739fc2a5d69f64b92007e399d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/scCAGN.py",
+    "sha256": "10af724de53627ca8a65f2dddd350f032af7ea2fb510afc9adf8032694aca448"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/upstream/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/pretrain.py",
+    "sha256": "1cd732a71f504a5faac9f9a5523cbc143d61c181d5bdc66dcddd9fee6d8eef9f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/scCAGN.py",
+    "sha256": "751fbed7c2d29a2d1b81e072fe9be7d823389f6b948f8c667e7d4e45745d2845"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_validation_v1/baseline/adapted/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/source_snapshot/run_concurrency_full.py",
+    "sha256": "9bf6ebe8f2d2fe4000f1de1eb956e45a78a8f53e2c715f624bde6f2345f41b68"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/source_snapshot/validate_concurrency_full.py",
+    "sha256": "3c5e5c4f4b918cdec9253dffe76dd2ed5c91fc96245b7be415ef25cde78eaf18"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/pretrain.py",
+    "sha256": "545a49a74b503dcac4abf01d4f68dda4940d5a5739fc2a5d69f64b92007e399d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/scCAGN.py",
+    "sha256": "10af724de53627ca8a65f2dddd350f032af7ea2fb510afc9adf8032694aca448"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/upstream/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/pretrain.py",
+    "sha256": "1cd732a71f504a5faac9f9a5523cbc143d61c181d5bdc66dcddd9fee6d8eef9f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/scCAGN.py",
+    "sha256": "751fbed7c2d29a2d1b81e072fe9be7d823389f6b948f8c667e7d4e45745d2845"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/serial202/adapted/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/pretrain.py",
+    "sha256": "545a49a74b503dcac4abf01d4f68dda4940d5a5739fc2a5d69f64b92007e399d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/scCAGN.py",
+    "sha256": "10af724de53627ca8a65f2dddd350f032af7ea2fb510afc9adf8032694aca448"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/upstream/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/pretrain.py",
+    "sha256": "1cd732a71f504a5faac9f9a5523cbc143d61c181d5bdc66dcddd9fee6d8eef9f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/scCAGN.py",
+    "sha256": "751fbed7c2d29a2d1b81e072fe9be7d823389f6b948f8c667e7d4e45745d2845"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel202/adapted/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/pretrain.py",
+    "sha256": "545a49a74b503dcac4abf01d4f68dda4940d5a5739fc2a5d69f64b92007e399d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/scCAGN.py",
+    "sha256": "10af724de53627ca8a65f2dddd350f032af7ea2fb510afc9adf8032694aca448"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/upstream/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/pretrain.py",
+    "sha256": "1cd732a71f504a5faac9f9a5523cbc143d61c181d5bdc66dcddd9fee6d8eef9f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/scCAGN.py",
+    "sha256": "751fbed7c2d29a2d1b81e072fe9be7d823389f6b948f8c667e7d4e45745d2845"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/performance_concurrency_v1/parallel101/adapted/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/analyze_capture.py",
+    "sha256": "e584d82d60d4e2d38f110a740512c805f49184587f0a326f20b69da90cfc6c1d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/diagnostic_observer.py",
+    "sha256": "e03fc1448fc5f45e5938aeb9c965324e1b2c4bc5389158f146e325a8b477c592"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/prepare_diagnostic.py",
+    "sha256": "0da835fd9f1fcd2a1617e13cc68e7145b6cca8cb02fd2812259dc2eed5496516"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/run_diagnostic.py",
+    "sha256": "1cb2fbb27d41229ef16bc1048e237a03113402aed74f46cf5b904dc6feb3bf71"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/verify_completion.py",
+    "sha256": "02ff39a3ca44d3bbc7b9a135ff013614ded205681766721da24dcc6595bc6487"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/verify_optimizer_state.py",
+    "sha256": "ed23c900f5384af8697df5fd2d2ec4ef26a7b188d8421778b6d0098acae3b82d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/write_review_and_package.py",
+    "sha256": "4e719efbce80463d55ec0901c2d5100d9322d399e3cf8c2dfb232f01e39ca8c8"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/layers.py",
+    "sha256": "ff5dc7bfaf73cedca9636b1cfaf454a18d0ab32df4072c58cf05214c0a10786c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/predata.py",
+    "sha256": "9fd07bd2dbe91aed5a61a3bc668375b3508766e2323129d29377af576c0f0270"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/preprocess.py",
+    "sha256": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/run_scSAMAC.py",
+    "sha256": "d564f02a4ddefb0977114fe4f692dca331bbb4813f7ce72eef1ecd523601533f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/scSAMAC.py",
+    "sha256": "7ee5030fa9eab6f01b42c82b99b85f3c6abb51f9ba57ee754c8d96e460b59f6c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/single_cell_tools.py",
+    "sha256": "075c57972f02abf9294133cec5090eff892df41b99aaee37fa4e9b522cdc0b9d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/st_loss.py",
+    "sha256": "fc70f32ac2e34f678196e2dfda634db2c3c67a47f03ab46df45518684c174c85"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_instrumented/utils.py",
+    "sha256": "8a4a68e2525c18572eff9122a7f92c30ecbe639141dd0f0f7f7810140153aeb6"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/common.py",
+    "sha256": "0afd938b9063d494b3661f53968771b3faf09ba338f7c3c25863434f68aca208"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/layers.py",
+    "sha256": "62190b89bb11bd28367d80af9f182b55dbfd3cd2b0335c5788db44ea13d8a7c5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/predata.py",
+    "sha256": "9fd07bd2dbe91aed5a61a3bc668375b3508766e2323129d29377af576c0f0270"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/preprocess.py",
+    "sha256": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/run_one.py",
+    "sha256": "9a63dd522c41c615f92d745923c4069bb692365812bb024e7b152a38a6191402"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/run_scSAMAC.py",
+    "sha256": "d564f02a4ddefb0977114fe4f692dca331bbb4813f7ce72eef1ecd523601533f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/scSAMAC.py",
+    "sha256": "7553ca525c5a64349287e3f1dd69f5975e7530f0366c788ad9c704a6f3fc39d5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/single_cell_tools.py",
+    "sha256": "075c57972f02abf9294133cec5090eff892df41b99aaee37fa4e9b522cdc0b9d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/st_loss.py",
+    "sha256": "5b0a3e897bbdb9338a64a0cb835f58a1dfd2f046eb49121354fd37f239e96edc"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/diagnostics/scsamac_spleen_seed101_v1/source_original/utils.py",
+    "sha256": "8a4a68e2525c18572eff9122a7f92c30ecbe639141dd0f0f7f7810140153aeb6"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/attempt_001/run_one.py",
+    "sha256": "1734cc981de389f654d2602336d0c84bfedce6906a15795bbe498f6f6e5a6086"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/attempt_002/run_one.py",
+    "sha256": "0fdb4d409a135f1038c4f4e8c71f575722dc7e5ec7b6daf762d89d527b4e16d0"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/formal_launch/evaluate_external.py",
+    "sha256": "e01588af3d60e6011029e02a99c8435f69492741f7569940fcf03b0d8853de9c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/formal_launch/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/formal_launch/run_one.py",
+    "sha256": "9a63dd522c41c615f92d745923c4069bb692365812bb024e7b152a38a6191402"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/formal_launch/run_queue.py",
+    "sha256": "254f89693f5fd809e9458980453e7305b24cee9629af02556c18f012df0b826f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/interruption_20261019T1405Z/evaluate_external_single_seed_v2.py",
+    "sha256": "1fa0cfb35274c5c794553f4d3db972cb82bda2bc8e3c7a3f0e15d5681f3f77f6"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/interruption_20261019T1405Z/run_queue_single_seed_v2.py",
+    "sha256": "fd98a9242a2fb8bbcc78d3a2e37bd1a5016acf3efae91c18e0e825fdc8b1e735"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/resume_20261018T0928Z/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/resume_20261018T0928Z/run_queue.py",
+    "sha256": "254f89693f5fd809e9458980453e7305b24cee9629af02556c18f012df0b826f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/resume_20261018T1033Z/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/resume_20261018T1033Z/run_queue_r2.py",
+    "sha256": "d6ef18979d71745df16de41aeed1932abc5a15430ff1653d911efbb93aa1fea3"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/build_evidence_bundle.py",
+    "sha256": "043419d23605925f9468e4e76f55fd490cd06035bad2eb50dc941758c5a5566d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/diagnose_readonly.py",
+    "sha256": "40ed9c4dafa5a231b825a1224d57a85b2e2cfcfc12bcceff31a5c9f711166f30"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/inspect_input_tail.py",
+    "sha256": "032b77160f5aefbf4e210576820c6b7fa62611605188f2ffbea86bca0e8b066d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/single_seed_20261019T0036Z/evaluate_external.py",
+    "sha256": "e01588af3d60e6011029e02a99c8435f69492741f7569940fcf03b0d8853de9c"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/single_seed_20261019T0036Z/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/single_seed_20261019T0036Z/run_queue_r3.py",
+    "sha256": "b6acf7e67dc86204fc44b80e0fe6b8f802fa8ee10017cf25b7045993dc10988f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/common.py",
+    "sha256": "0afd938b9063d494b3661f53968771b3faf09ba338f7c3c25863434f68aca208"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/prepare_heldouts_v2.py",
+    "sha256": "169cee6aeea613d19241d1e4cd3d8684a0fa79b6f23f92f85654f55eb67341e9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/protocol.json",
+    "sha256": "76c7d70d61c70caa129af11678a2a7bf255034c19d1d4d0f88f67fac08db678f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/run_one.py",
+    "sha256": "9a63dd522c41c615f92d745923c4069bb692365812bb024e7b152a38a6191402"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/layers.py",
+    "sha256": "62190b89bb11bd28367d80af9f182b55dbfd3cd2b0335c5788db44ea13d8a7c5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/predata.py",
+    "sha256": "9fd07bd2dbe91aed5a61a3bc668375b3508766e2323129d29377af576c0f0270"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/preprocess.py",
+    "sha256": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/run_scSAMAC.py",
+    "sha256": "d564f02a4ddefb0977114fe4f692dca331bbb4813f7ce72eef1ecd523601533f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/scSAMAC.py",
+    "sha256": "7553ca525c5a64349287e3f1dd69f5975e7530f0366c788ad9c704a6f3fc39d5"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/single_cell_tools.py",
+    "sha256": "075c57972f02abf9294133cec5090eff892df41b99aaee37fa4e9b522cdc0b9d"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/st_loss.py",
+    "sha256": "5b0a3e897bbdb9338a64a0cb835f58a1dfd2f046eb49121354fd37f239e96edc"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/audit/scsamac_spleen_nan_diagnosis_v1_20261022/source_snapshot/author_source/utils.py",
+    "sha256": "8a4a68e2525c18572eff9122a7f92c30ecbe639141dd0f0f7f7810140153aeb6"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/evaluation.py",
+    "sha256": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/GNN.py",
+    "sha256": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/KNN.py",
+    "sha256": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/preprocess.py",
+    "sha256": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/pretrain.py",
+    "sha256": "1cd732a71f504a5faac9f9a5523cbc143d61c181d5bdc66dcddd9fee6d8eef9f"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/scCAGN.py",
+    "sha256": "751fbed7c2d29a2d1b81e072fe9be7d823389f6b948f8c667e7d4e45745d2845"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/utils.py",
+    "sha256": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb"
+  },
+  {
+    "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/utilss.py",
+    "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  }
+]

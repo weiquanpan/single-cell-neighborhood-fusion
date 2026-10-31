@@ -1,0 +1,116 @@
+{
+  "id": "external_baselines_v1",
+  "frozen_utc": "2026-10-18T05:19:03.572334+00:00",
+  "source": {
+    "scAGCL": {
+      "commit": "2f0015380dd7ce270632477de25cabebea7c166e",
+      "files": {
+        "model.py": "d40c30d3c2ed44bcfc3a5ab0975613073864e51c3dbf53f6411b6bf1bc39f452",
+        "scAGCL.py": "e911524c7b013b12edfb84995dbb7b6c55da96fc4cca6f4a30f2f68a2d542b77",
+        "train.py": "f7363aa0dbe843f527f8fb7422202c42f70bfa29938a1e30f88cf42edca16e2b",
+        "utils.py": "ca4bcf9e7fd3e09946b9c6c636ec625f252d9de97675cbfe6c293469ceba09c3"
+      }
+    },
+    "scCAGN": {
+      "commit": "3fd4d1ffea37fd962083682e8e0a71f72e222c0e",
+      "files": {
+        "evaluation.py": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f",
+        "GNN.py": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1",
+        "KNN.py": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b",
+        "preprocess.py": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641",
+        "pretrain.py": "545a49a74b503dcac4abf01d4f68dda4940d5a5739fc2a5d69f64b92007e399d",
+        "scCAGN.py": "10af724de53627ca8a65f2dddd350f032af7ea2fb510afc9adf8032694aca448",
+        "utils.py": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb",
+        "utilss.py": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+      }
+    },
+    "scSAMAC": {
+      "commit": "4ee0d2f4ca392802d43ba43a9eacf0a31cbae384",
+      "files": {
+        "layers.py": "62190b89bb11bd28367d80af9f182b55dbfd3cd2b0335c5788db44ea13d8a7c5",
+        "predata.py": "9fd07bd2dbe91aed5a61a3bc668375b3508766e2323129d29377af576c0f0270",
+        "preprocess.py": "10aa1a7ef3cac1dc0b136276d70757b125afe201924dd8e78fa2dcbae23859b9",
+        "run_scSAMAC.py": "d564f02a4ddefb0977114fe4f692dca331bbb4813f7ce72eef1ecd523601533f",
+        "scSAMAC.py": "7553ca525c5a64349287e3f1dd69f5975e7530f0366c788ad9c704a6f3fc39d5",
+        "single_cell_tools.py": "075c57972f02abf9294133cec5090eff892df41b99aaee37fa4e9b522cdc0b9d",
+        "st_loss.py": "5b0a3e897bbdb9338a64a0cb835f58a1dfd2f046eb49121354fd37f239e96edc",
+        "utils.py": "8a4a68e2525c18572eff9122a7f92c30ecbe639141dd0f0f7f7810140153aeb6"
+      }
+    }
+  },
+  "development": {
+    "Worm_Neuron": 10,
+    "Limb_Muscle": 6,
+    "Tosches": 15,
+    "Bach": 8
+  },
+  "development_seeds": [
+    11,
+    22,
+    33
+  ],
+  "primary": [
+    "Romanov",
+    "Adam",
+    "Quake_10x_Bladder",
+    "Quake_10x_Spleen",
+    "Quake_Smart-seq2_Lung"
+  ],
+  "supplement": [
+    "Muraro"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "methods": [
+    "scSAMAC",
+    "scAGCL",
+    "scCAGN"
+  ],
+  "selection": "No hyperparameter search. Uniform author default budgets across datasets. Posthoc comparison extension on previously revealed holdouts.",
+  "input": "Frozen shared cells and 2000 HVGs; scSAMAC encoder/counts/size factors; scAGCL log_input; scCAGN MinMax(counts) then row L2 as author H5 transform. No rounding of Muraro.",
+  "outputs": "Author native prediction and separate L2+KMeans20(random_state=train seed) readout, never choose per dataset; Fusion unchanged.",
+  "scSAMAC": {
+    "pretrain_epochs": 300,
+    "joint_max_epochs": 2000,
+    "tol": 0.001,
+    "batch_size": 256,
+    "reuse_development": true
+  },
+  "scAGCL": {
+    "epochs_argument": 500,
+    "actual_optimizer_steps": 501,
+    "adversarial_iterations_per_view": 10,
+    "subgraph_size": 400,
+    "selection": "author minimum label-free training loss; returned embedding is before corresponding update",
+    "native_readout": "L2 KMeans n_init=auto random_state=0, following author sklearn1.5 default"
+  },
+  "scCAGN": {
+    "pretrain_restarts": 20,
+    "pretrain_epochs_each": 50,
+    "pretrain_batch_size": 1,
+    "joint_epochs": 30,
+    "pretrain_selection": "maximum final-epoch silhouette, author rule",
+    "joint_selection": "fixed terminal checkpoint; original label-NMI selection removed and explicitly reported",
+    "Auto": false,
+    "known_implementation_limit": "author adversarial loss uses detached pretraining z; preserved, not silently corrected"
+  },
+  "timeout_seconds_per_job": 172800,
+  "timeout_note": "48h engineering cap, not early stopping; timed-out runs remain incomplete. Full author scCAGN cellwise budget may be costly.",
+  "evaluation": "Reuse frozen evaluate.metrics; exact cell position equality; complete grid only, dataset equal ARI/rank, seed SD, smallest/worst recall and fragmentation. Muraro separate with exclude-unclear sensitivity.",
+  "frozen_fusion_manifest_sha256": "d732f33ae031fb80ba2ffa63d2cfcf16c4e49ec436e65ddc67ffaa577f3721c0",
+  "adapted_sha256": {
+    "adapted\\scCAGN\\evaluation.py": "72b72e597fba1776ca0aa2495cc36378c1a0e57749afd79069a5599f1b081c7f",
+    "adapted\\scCAGN\\GNN.py": "cdb1580b978fee8cdc5844246e75f20c5e6957c12629dc835c35326d16baaab1",
+    "adapted\\scCAGN\\KNN.py": "30ce464764eee1994b3f8e54a29140200f7a8b0885047bb846856de69c51a64b",
+    "adapted\\scCAGN\\preprocess.py": "d98df5314e754d6c6442e14a5160f83f44b91966ff57bdc067da1c87e0db7641",
+    "adapted\\scCAGN\\pretrain.py": "1cd732a71f504a5faac9f9a5523cbc143d61c181d5bdc66dcddd9fee6d8eef9f",
+    "adapted\\scCAGN\\scCAGN.py": "751fbed7c2d29a2d1b81e072fe9be7d823389f6b948f8c667e7d4e45745d2845",
+    "adapted\\scCAGN\\utils.py": "b14edd2f63ee4bf5471b165905e83a7cd7b7290deceba0a9e402e01ffebcfddb",
+    "adapted\\scCAGN\\utilss.py": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  }
+}

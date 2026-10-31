@@ -1,0 +1,23 @@
+{
+  "protocol_id": "cross_dataset_v1",
+  "development": {"Worm_Neuron":10,"Limb_Muscle":6,"Tosches":15,"Bach":8},
+  "seeds": [11,22,33],
+  "heldout_names": ["Muraro","Romanov","Adam","Quake_10x_Bladder","Quake_10x_Spleen","Quake_Smart-seq2_Lung"],
+  "heldout_seeds": [101,202,303,404,505],
+  "heldout_access": "blocked_until_method_freeze",
+  "depth": "full",
+  "readouts": ["kmeans","gmm_diag","gmm_full","leiden","spectral"],
+  "n_init": 20,
+  "knn": 15,
+  "primary": ["dataset_macro_mean_ARI","dataset_macro_mean_rank"],
+  "guardrail": "Each dataset seed-mean ARI >= max(NB,scGAAM seed-mean ARI)-0.05",
+  "guardrail_margin": 0.05,
+  "selection": "Complete 4 datasets x 3 seeds only; eligible candidates ordered by mean ARI, then mean rank; never choose per dataset",
+  "consensus_views": ["NB-H","PCA","scGAAM","R6"],
+  "consensus_missing_policy": "Report NB-H/PCA/scGAAM separately; full four-view candidate invalid until all R6 cells exist",
+  "consensus_pca_k_factors": [1,2,3],
+  "r6": {"pretrain_updates":400,"joint_updates":400,"batch_size":256,"edge_weight":0.2,"anchor_weight":0.1,"dec_power":1.5,"dec_frequency_normalization":false},
+  "nb_gcl": {"nb_weight":0.1,"epochs":500,"subgraph_size":400,"ablation_order":["scGAAM","NB-GCL","NB-GCL-fusion","NB-GCL-context"]},
+  "selector": "disabled pending cross-dataset rank-correlation validation",
+  "timeout_seconds_per_job": 28800
+}

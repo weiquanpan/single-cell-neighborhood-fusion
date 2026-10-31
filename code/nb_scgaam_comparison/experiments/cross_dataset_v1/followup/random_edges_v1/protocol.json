@@ -1,0 +1,37 @@
+{
+  "scope": "posthoc development mechanism control; no method reselection or unseen-validation claim",
+  "datasets": [
+    "Worm_Neuron",
+    "Limb_Muscle",
+    "Tosches",
+    "Bach"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "randomization": "Uniform rejection sampling without replacement from unordered non-self pairs absent from expression graph; exactly |latent minus expression| edges",
+  "degree_matched": false,
+  "rng": "isolated numpy default_rng(seed); global training RNG unchanged",
+  "training": "unchanged frozen Fusion trainer; only latent added edges replaced; 501 updates, 10 PGD steps/view, same NB auxiliary .1, original min-loss pre-step checkpoint",
+  "readout": "L2 KMeans n_init20 random_state=training seed",
+  "pretraining": "reuse frozen same-seed 400-epoch count latent cache; attribute pretraining budget separately",
+  "labels": "blocked during training; only offline evaluation/statistics",
+  "primary": "four datasets equal mean ARI and mean rank; paired seed differences; original stronger baseline .05 audit retained",
+  "metrics": [
+    "ARI",
+    "NMI",
+    "worst_group_recall",
+    "smallest_group_recall",
+    "mean_fragmentation"
+  ],
+  "graph_statistics": [
+    "expression/latent overlap and Jaccard",
+    "added fraction",
+    "degree mean/std/quantiles/max",
+    "components",
+    "label agreement posthoc only"
+  ],
+  "no_retries": true
+}

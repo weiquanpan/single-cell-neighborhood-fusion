@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-17T17:52:10.925094+00:00",
+  "status": "PREPARED_NOT_RUN",
+  "posthoc_development_control": true,
+  "original_sources": {
+    "train_gcl.py": "1f50a265c6a51fdddc057444fabb3b1cb3d403a0d55261020f196c1127687c9e",
+    "train_r6.py": "b30b8e5ad682c6a4a3e5bd8bd0710394b7bb77cce18b2aebf4e0fcd315d1a042",
+    "gcl_train.py": "3d7636ad3490b61f14aa708542027a1a6f2a337a145a82a53bf55a4be4ded0e9",
+    "common.py": "0afd938b9063d494b3661f53968771b3faf09ba338f7c3c25863434f68aca208",
+    "protocol.json": "eaba26597f209a48236a79a65b7eaf2b88101dde2ffcaa7e8907ffa51f59df7d"
+  },
+  "control_sources": {
+    "train_gcl_control.py": "ad0c62f539bcad4b04ca513befec2694dea25cf74d9d4314b90489f6d4dcc140",
+    "train_r6_control.py": "a91fe993712f449a3c3b2175a252d0ea734b706c752a97b1f47e7b6c9832d4e9"
+  },
+  "datasets": [
+    "Worm_Neuron",
+    "Limb_Muscle",
+    "Tosches",
+    "Bach"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "outputs": "F:\\cluster-noise\\nb_scgaam_comparison\\experiments\\cross_dataset_v1\\control_training",
+  "required_validation": "Smoke and branch checks before full execution; prepared code is not an experimental result.",
+  "launch_policy": "Do not launch competing GPU jobs. Run after original queue completes and no current child remains.",
+  "gcl_command": "train_gcl_control.py --dataset DATA --seed SEED --variant NB-GCL",
+  "r6_command": "train_r6_control.py --dataset DATA --seed SEED --variant both_gentle",
+  "heldout_access": false
+}
