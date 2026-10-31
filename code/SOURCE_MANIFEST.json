@@ -1390,5 +1390,17 @@
   {
     "file": "nb_scgaam_comparison/experiments/external_baselines_v1/adapted/scCAGN/utilss.py",
     "sha256": "6eaab4a3c1d47268d6ce7ed167f6cd8835ad50f5edfc8754dcfe4153ca788a73"
+  },
+  {
+    "file": "manuscript_tools/build_evidence.py",
+    "sha256": "83ac86b8385b6b6e7e64fc1ccdbd453fced0b3615580fc7fe503638fee365654"
+  },
+  {
+    "file": "manuscript_tools/inspect_pdfs.py",
+    "sha256": "d0b8afe0b2678731260c1ac595e3ee5cc49ac2992775efdf79dcb1299324886a"
+  },
+  {
+    "file": "manuscript_tools/verify_references.py",
+    "sha256": "29d78de3d5817250d5b077f244be837546d5d2610a7ed28da88f9d1ab65f902e"
   }
 ]
